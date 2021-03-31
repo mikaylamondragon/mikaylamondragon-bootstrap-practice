@@ -1,0 +1,14 @@
+.navbar{
+  a:link {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}

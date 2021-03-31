@@ -6,7 +6,11 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$secondary-color: #ffffff;
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+@import "navbar";
+@import "jumbotron";

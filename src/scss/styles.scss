@@ -12,8 +12,8 @@ h5{
   font-family: Arial, Helvetica, sans-serif; 
 }
 
-h3{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+h2{
+  font-family: 'Syne Mono', monospace;
 }
 
 .active-link{
@@ -24,6 +24,19 @@ h3{
   float: right
 }
 
+footer {
+  clear: both;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: lightgray
+}
+
+#carouselExampleControls{
+  padding-left: 30px
+}
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -31,3 +44,5 @@ h3{
 @import "navbar";
 @import "jumbotron";
 @import "credit";
+@import "vertical-line";
+@import "content";

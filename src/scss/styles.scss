@@ -9,11 +9,19 @@
 $secondary-color: #ffffff;
 
 h5{
-  font-family: Arial, Helvetica, sans-serif 
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 h3{
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active-link{
+  font-style: bold;
+}
+
+.right{
+  float: right
 }
 
 // Import Bootstrap styles
@@ -22,3 +30,4 @@ h3{
 // Import partials here
 @import "navbar";
 @import "jumbotron";
+@import "credit";

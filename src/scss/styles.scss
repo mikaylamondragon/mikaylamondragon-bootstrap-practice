@@ -8,6 +8,14 @@
 
 $secondary-color: #ffffff;
 
+h5{
+  font-family: Arial, Helvetica, sans-serif 
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 

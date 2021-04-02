@@ -35,7 +35,9 @@ footer {
 }
 
 #carouselExampleControls{
-  padding-left: 30px
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
